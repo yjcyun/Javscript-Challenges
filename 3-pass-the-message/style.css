@@ -1,19 +1,24 @@
-.container {
-  max-width: 700px;
-}
-
 .row {
   height: 100vh;
 }
 
 .card {
-  width: 700px;
+  max-width: 700px;
+  width: 100%;
 }
 
 .footer {
   position: absolute;
   bottom: 0;
   left: 50%;
-  text-align: center;
   transform: translateX(-50%);
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
 }
