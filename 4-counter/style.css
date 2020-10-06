@@ -1,0 +1,16 @@
+.row {
+  height: 100vh;
+}
+
+.card {
+  max-width: 500px;
+  width: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
