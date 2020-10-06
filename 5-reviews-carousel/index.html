@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+  <!-- Custom CSS -->
+  <link rel='stylesheet' href='./style.css'>
+
+  <!-- Site Title -->
+  <title>Reviews Carousel</title>
+</head>
+
+<body>
+  <div class='container px-4'>
+    <div class='row vertical-center align-self-center m-auto'>
+      <div class='m-auto text-center'>
+        <h1>Reviews</h1>
+        <div class='card'>
+          <img src='' alt='' class='mx-auto mt-3' id='avatar'>
+          <div class='card-body'>
+            <h5 class='card-title text-capitalize' id='author'>Name</h5>
+            <h6 class='card-subtitle mb-2 text-muted text-uppercase' id='job'>Job</h6>
+            <p class='card-text my-5 w-75 mx-auto' id='testimonial'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, enim!</p>
+            <div class='cta'>
+              <button class='btn btn-dark' id='prev-btn'>
+                <i class='fas fa-chevron-left'></i>
+              </button>
+              <button class='btn btn-dark' id='next-btn'>
+                <i class='fas fa-chevron-right'></i>
+              </button>
+            </div>
+            <button class='btn btn-primary mt-3' id='random-btn'>Random Quote</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class='footer'>
+    <p>Javascript Challenge #5 Coded by <a href='https://chrisitnayun.ca'>Christina Yun</a></p>
+  </footer>
+
+  <script src='./app.js'></script>
+</body>
+
+</html>
