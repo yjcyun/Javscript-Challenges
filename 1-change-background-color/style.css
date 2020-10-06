@@ -7,13 +7,19 @@
 .background {
   width: 100vw;
   height: 100vh;
-  background: #000;
+  background: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 button {
   padding: 1rem 2rem;
   cursor: pointer;
+  margin-top: 2rem;
+}
+
+#hex_color {
+  text-transform: uppercase;
 }
