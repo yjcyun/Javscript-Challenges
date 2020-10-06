@@ -5,7 +5,6 @@
 }
 
 .background {
-  width: 100vw;
   height: 100vh;
   background: #fff;
   display: flex;
@@ -14,12 +13,13 @@
   flex-direction: column;
 }
 
-button {
-  padding: 1rem 2rem;
-  cursor: pointer;
-  margin-top: 2rem;
-}
-
 #hex_color {
   text-transform: uppercase;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
