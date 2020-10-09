@@ -6,3 +6,4 @@
 4. [Counter](https://4-counter.vercel.app/)
 5. [Reviews Carousel](https://5-reviews-carousel.vercel.app/)
 6. [Memory Game](https://memory-game-mu.vercel.app/)
+7. [Whack-a-mole](https://whack-a-mole-lac.vercel.app/)
