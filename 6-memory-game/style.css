@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 100vh;
+  background: #34495e;
+  color: whitesmoke;
+  font-family: 'Fira Mono', monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 2rem;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  perspective: 1000px;
+}
+
+img {
+  width: 100%;
+  cursor: pointer;
+  transform: scale(1);
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+img:active {
+  transform: scale(0.97);
+  transition: transform 0.2s;
+}
+
+img.flip {
+  transform: rotateY(180deg);
+}
+
+/* Modal */
+.modal {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.show {
+  display: flex;
+}
+
+.modal__content {
+  background: whitesmoke;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 15rem;
+  color: #34495e;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  justify-content: center;
+}
+
+.modal__content h3 {
+  margin-top: 1rem;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 1rem;
+  font-size: 2rem;
+  text-align: right;
+  cursor: pointer;
+}
+
+button {
+  margin-top: 4rem;
+  font-family: 'Fira Mono', monospace;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1rem;
+  display: inline-block;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
