@@ -1,5 +1,22 @@
-.vertical-center {
+body {
+  position: relative;
   min-height: 100vh;
+  background:#CAD3C8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 450px) {
+  body {
+    padding: 2rem 0;
+  }
+}
+
+.container {
+  padding-bottom: 2.5rem;
 }
 
 img {
@@ -8,10 +25,20 @@ img {
   height: 100px;
 }
 
-.footer {
+.attribution {
   position: absolute;
   bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  width: 80%;
+  height: 2.5rem;
   text-align: center;
+  color: #333;
+}
+
+.attribution span {
+  display: inline-block;
+}
+
+.attribution span a {
+  color: #333;
+  text-decoration: underline;
 }
