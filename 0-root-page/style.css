@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  max-width: 1170px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+.heading h1 {
+  margin-bottom: 1rem;
+}
+
+.heading a {
+  box-shadow: rgba(42, 192, 110, 1) 0px -2px inset;
+}
+
+.solution__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 2rem;
+  margin: 4rem auto 6rem;
+}
+
+.solution__card {
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);  
+}
+
+.solution__card-img {
+  display: flex;
+  overflow: hidden;
+}
+
+.solution__card-img img{
+  transition: all 0.3s;
+}
+
+.solution__card-img:hover img{
+  transform: scale(1.03);
+}
+
+.solution__card-body {
+  padding: 0 1.5rem 1.5rem;
+}
+
+.header {
+  display: flex;
+}
+
+.header li {
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
+
+.title {
+  margin: 1rem 0;
+  color: #333;
+}
+
+.html {
+  color: rgb(106, 190, 205);
+}
+
+.css {
+  color: rgb(62, 84, 163);
+}
+
+.js {
+  color: rgb(225, 55, 132);
+}
+
+.live:hover .links span{
+  box-shadow: rgba(42, 192, 110, 1) 0px -2px inset
+}
+
+.attribution {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 450px) {
+  .solution__cards {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
