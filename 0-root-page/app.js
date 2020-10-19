@@ -3,49 +3,49 @@ const solutions = [
     id: 0,
     title: 'Change background color',
     img: './assets/change-background.png',
-    live: 'https://frontendmentor-social-proof.vercel.app/'
+    live: 'https://1-change-background-color.vercel.app/'
   },
   {
     id:1,
     title: 'Random quote generator',
     img: './assets/random-quote.png',
-    live: 'https://frontendmentor-article-preview-nine.vercel.app/'
+    live: 'https://2-random-quote-generator.vercel.app/'
   },
   {
     id:2,
     title: 'Pass the message',
     img: './assets/pass-message.png',
-    live: 'https://frontendmentor-fylo-data-storage-orpin.vercel.app/'
+    live: 'https://3-pass-the-message.yjcyun.vercel.app/'
   },
   {
     id: 3,
     title: 'Counter',
     img: './assets/counter.png',
-    live: 'https://base-apparel-coming-soon-master-murex.vercel.app/'
+    live: 'https://4-counter.vercel.app/'
   },
   {
     id: 4,
     title: 'Reviews slide',
     img: './assets/review.png',
-    live: 'https://four-card-feature-section-master-flax.vercel.app/'
+    live: 'https://5-reviews-carousel.vercel.app/'
   },
   {
     id: 5,
     title: 'Memory game',
     img: './assets/memory-game.png',
-    live: 'https://intro-component-with-signup-form-master-delta.vercel.app/'
+    live: 'https://memory-game-mu.vercel.app/'
   },
   {
     id: 6,
     title: 'Whack-a-mole game',
     img: './assets/whake.png',
-    live: 'https://single-price-grid-component-master-kappa-eight.vercel.app/'
+    live: 'https://whack-a-mole-lac.vercel.app/'
   },
   {
     id: 7,
     title: 'Form validator',
     img: './assets/form.png',
-    live: 'https://huddle-landing-page-with-single-introductory-section-master.yjcyun.vercel.app/'
+    live: 'https://8-form-validator.vercel.app/'
   }
 ]
 
